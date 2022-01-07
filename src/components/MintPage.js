@@ -83,11 +83,19 @@ const LeftButton = styled(ChevronLeftIcon)`
     padding-left: 25px;
     cursor: pointer;
     color: #433A38;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    &:hover {
+            transform: scale(1.25);
+        }
 `
 const RightButton = styled(ChevronRightIcon)`
     padding-right: 25px;
     cursor: pointer;
     color: #433A38;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    &:hover {
+            transform: scale(1.25);
+        }
 `
 const MintButton = styled.button`
     cursor: pointer;
@@ -101,4 +109,8 @@ const MintButton = styled.button`
     font-weight: 600;
     margin-bottom: 30px;
     color: #433A38;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    &:hover {
+            transform: scale(1.05);
+        }
 `
